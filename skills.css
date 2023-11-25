@@ -1,0 +1,48 @@
+
+body {
+    background: black;
+    color: blanchedalmond;
+    font-size: 16px;
+    
+}
+
+.head {
+    justify-content: center;
+    display: flex;
+    color: aqua;
+}
+
+.align {
+    justify-content: center;
+    display: flex;
+    color: blanchedalmond;
+}
+
+.align ul {
+    font-weight: 600;
+}
+
+.align p{
+    font-weight: 200;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    background: black;
+    color: blanchedalmond;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    }
+
+.btn:hover {
+    color: aqua;
+}
+
+.movbtn {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}

@@ -1,0 +1,43 @@
+
+body{
+    background: black;
+    color: blanchedalmond;
+}
+
+h1{
+    color: aqua;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    color: aqua;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+p {
+    margin-left: 10%;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    background: black;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 70%;
+    border: none;
+    outline: none;
+    }
+    
+.btn:hover {
+    color: aqua;
+}
+
+.movbtn {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}

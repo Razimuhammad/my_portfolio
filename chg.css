@@ -1,0 +1,128 @@
+
+@media (max-width:700px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#navbarText {
+    margin-left: 80%;
+    font-size: 16px;  
+    font-family: "poppins",sans-serif; 
+}
+.navbar{
+    background: black;
+}
+
+.navbar a {
+    color: blanchedalmond;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px;
+    transition: 0.3s all;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+ul li.nav-item1 a{
+    color: aqua;
+}
+
+.myprof {
+    display: block;
+    padding: 25px 10%;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background: black;
+}
+
+.myprof h3,h1,p {
+    color: blanchedalmond;
+    padding: 3px; 
+    font-family: "poppins",sans-serif;
+}
+
+.myprof h1 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "poppins",sans-serif;
+}
+
+.myprof h3, p {
+    font-size: 16px;
+}
+
+.myprof h3 span{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "poppins",sans-serif;
+}
+
+.myprof .logos  { 
+    padding: 10px  ;
+    justify-content: center;
+    display: flex; 
+    cursor: default;  
+}
+
+.myprof .btn2 {
+    border-radius: 20px;
+    background: aqua;
+    outline: none;
+    border: none;
+    min-width: none;
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color:blanchedalmond;
+}
+
+ 
+.myprof .movebtn {
+    justify-content: center;
+    display: flex;
+    background: aqua;
+    color: blanchedalmond;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.logos { 
+    margin-top: 5%;
+    margin: 0;
+}
+
+.logos a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px; 
+    padding: 2.5%;    
+}
+
+.logos a:hover {
+    color: aqua;
+}
+
+.mypic {
+    margin-top: -10%;  
+}
+
+}
+
+
