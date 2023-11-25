@@ -24,9 +24,14 @@ h3 {
     font-size: 15px;
 }
 
+h3 span{
+    color: aqua;
+}
+
 h4 {
     font-weight: 600;
     font-size: 20px;
+    color:aqua;
 }
 
 .data a{
@@ -36,8 +41,12 @@ h4 {
     font-weight: 600;
 }
 
+.data a:hover{
+    color: aqua;
+}
+
 .btn {
-    padding: 10px;
+    padding: 30px;
     font-weight: 600;
     font-size: 18px;
     background-color: black;
