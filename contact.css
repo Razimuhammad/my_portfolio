@@ -1,7 +1,7 @@
 
 
 body{
-    background: white;
+    background: black;
     color: blanchedalmond;
     min-height: 100vh;
     align-items: center;
@@ -18,6 +18,22 @@ body{
 
 .data {
     text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.data a{
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .btn {
